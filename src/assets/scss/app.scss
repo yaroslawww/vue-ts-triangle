@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #dee3e3;
+  background: url(../img/bg-wave.svg), radial-gradient(farthest-side ellipse at 10% 0, #37465a 20%, #8c9daf);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
